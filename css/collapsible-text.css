@@ -1,0 +1,39 @@
+.collapsible-section div {
+  transition: max-height 0.5s;
+  overflow-y: hidden;
+}
+
+.collapsible-section .show-ellipsis {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  /* truncate to 4 lines */
+}
+
+.collapsible-section .clamp-12 {
+  -webkit-line-clamp: 12;
+}
+
+.collapsible-section .clamp-6 {
+  -webkit-line-clamp: 6;
+}
+
+.collapsible-section .clamp-5 {
+  -webkit-line-clamp: 5;
+}
+
+.collapsible-section .clamp-4 {
+  -webkit-line-clamp: 4;
+}
+
+.collapsible-section .clamp-3 {
+  -webkit-line-clamp: 3;
+}
+
+.collapsible-section .clamp-2 {
+  -webkit-line-clamp: 2;
+}
+
+.collapsible-section .clamp--1 {
+  -webkit-line-clamp: none;
+}

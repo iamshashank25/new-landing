@@ -1,0 +1,10 @@
+
+@media (max-width: 992px) {
+  .carousel-wrapper .pagination-dots {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    padding-bottom: 10px;
+    background: #0e1217;
+    border-top: 1px solid rgba(255, 255, 255, 0.12);
+  }
+}

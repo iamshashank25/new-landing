@@ -1,0 +1,33 @@
+.rummy-rules-container .hideOnPhone {
+  /* Default styles can go here if needed */
+}
+
+@media (max-width: 600px) {
+  .rummy-rules-container .hideOnPhone {
+    display: none !important;
+  }
+}
+
+.rummy-rules-container .imageAttr {
+  height: 24px;
+  width: 52px;
+}
+
+@media (min-width: 600px) {
+  .rummy-rules-container .imageAttr {
+    height: 40px;
+    width: 86px;
+  }
+}
+
+.rummy-rules-container .imageSecondAttr {
+  height: 24px;
+  width: 68px;
+}
+
+@media (min-width: 600px) {
+  .rummy-rules-container .imageSecondAttr {
+    height: 40px;
+    width: 113px;
+  }
+}

@@ -1,0 +1,19 @@
+.variants-card-mobile {
+  /* Default styles can go here if needed */
+}
+
+@media (max-width: 380px) {
+  .variants-card-mobile {
+    box-shadow: 0 4px 50px rgb(0 0 0 / 50%);
+  }
+}
+
+@media (min-width: 385px) and (max-width: 700px) {
+  .variants-card-mobile {
+    box-shadow: 0 4px 50px rgb(0 0 0 / 50%);
+  }
+}
+
+.variants-card-mobile:first-child {
+  margin-left: 0;
+}

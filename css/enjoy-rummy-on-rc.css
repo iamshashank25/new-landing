@@ -1,0 +1,56 @@
+#rummy-enjoy .red-arrow-list li {
+  margin-left: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  padding-left: 24px;
+}
+
+@media (max-width: 700px) {
+  #rummy-enjoy .red-arrow-list li {
+    font-size: 14px;
+    line-height: 20px;
+    padding-left: 16px;
+  }
+}
+
+#rummy-enjoy .red-arrow-list li::after {
+  top: 6px;
+}
+
+@media (min-width: 700px) {
+  #rummy-enjoy .red-arrow-list li::after {
+    top: 8px;
+    left: 0;
+  }
+}
+
+#rummy-enjoy .line-around {
+  position: relative;
+}
+
+#rummy-enjoy .line-around::after {
+  content: '';
+  position: absolute;
+  height: 1px;
+  width: calc(50% - 30px);
+  background: rgba(255, 255, 255, 0.12);
+  top: 50%;
+  right: 0;
+  transform: translate(0%, -50%);
+}
+
+#rummy-enjoy .line-around::before {
+  content: '';
+  position: absolute;
+  height: 1px;
+  width: calc(50% - 30px);
+  background: rgba(255, 255, 255, 0.12);
+  top: 50%;
+  left: 0;
+  transform: translate(0%, -50%);
+}
+
+#rummy-enjoy .collapsible-btn {
+  margin-left: 16px;
+}

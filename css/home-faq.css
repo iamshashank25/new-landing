@@ -1,0 +1,36 @@
+.home-faq .accordion-panel::after {
+  left: 30px;
+  width: calc(100% - 50px);
+}
+
+@media (max-width: 700px) {
+  .home-faq .accordion-panel::after {
+    left: 17px;
+    width: calc(100% - 35px);
+  }
+}
+
+.home-faq .accordion-panel[aria-expanded='true'] {
+  /* Default styles can go here if needed */
+}
+
+@media (min-width: 700px) {
+  .home-faq .accordion-panel[aria-expanded='true'] {
+    background: none;
+    border: none;
+  }
+
+  .home-faq .accordion-panel[aria-expanded='true']::after {
+    background: #222d2c;
+  }
+
+  .home-faq .accordion-panel[aria-expanded='true'] + .accordion-panel[aria-expanded='false']::after {
+    background: #222d2c;
+  }
+}
+
+.home-faq .arrow-list {
+  position: relative;
+  padding: 0 0 0 24px;
+  list-style: disc;
+}
